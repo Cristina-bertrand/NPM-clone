@@ -1,0 +1,88 @@
+*{
+  font-family:sans-serif
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 100px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.header{
+color: white;
+background-color: rgb(32, 101, 136);
+search-bar-background-color: rgb(31, 82, 111);
+}
+.build-amazing{
+ width:33%;
+margin: 0;
+}
+.btn-orange{
+background-color: #f09233;
+text-align: center;
+outline: none;
+width:30%;
+}
+.btn-item{
+    color: white;
+    text-decoration: none;
+}
+#sign-up-for-orgs{
+color: white;
+background-color: rgb(39, 53, 71);
+}
+.learn-item{
+  color: white;
+  text-decoration: none;
+}
+.btn-red{
+background-color: rgb(203, 56, 55);
+text-align: center;
+outline: none;
+width:30%;
+}
+#install-npm{
+  color: white;
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+}
+.btn-black{
+  background-color: rgb(49, 68, 88);
+  text-align: center;
+  outline: none;
+  width:30%;
+}
+#building-blocks{
+  background-color: white;
+  }
+.h2{
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+.p{
+  color:rgb(135, 145, 156);
+  text-align: center;
+}
+.a{
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+.h-building{
+  list-style-type: none;
+   text-align: center;
+   width: 33%;
+   float: right;
+}
