@@ -1,88 +1,196 @@
-*{
-  font-family:sans-serif
+/* tag rules */
+
+* {
+    font-family: "sans-serif";
+}
+body {
+    margin: 0;
 }
 nav {
-  background-color: #C12127;
-  color: rgba(255,255,255,0.8);
-  padding-top: 15px;
-  height: 100px;
+    background-color: #C12127;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
 }
 nav a {
-  color: rgba(255,255,255,0.8);
-  text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+h2 {
+    color: rgb(83, 88, 98);
+    text-align: center;
+}
+p {
+    color: rgb(135, 145, 156);
+    text-align: center;
+}
+a {
+    color: rgb(208, 74, 73);
+    text-decoration: none;
+}
+header {
+    color: white;
+    background-color: rgb(32, 101, 136);
+}
+input {
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    margin: 0 0 20px;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 1em;
+    display: block;
+    width: 70%;
+}
+.search-place {
+    float: right;
+    width: 70%;
+}
+
+.search-place input{
+    height:30px;
+}
+
+.heart {
+    padding-left: 16px;
+    padding-right: 20px;
+}
+.acronym {
+    display: inline-block;
+    width: 33%;
 }
 .top-links {
-  display: inline-block;
-  float: right;
-  padding: 0;
-  margin: 0 20px 0 0;
+    display: inline-block;
+    padding: 0;
+    margin: 0 20px 0 0;
 }
 .top-links li {
-  display: inline-block;
-  margin: 0 10px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px;
 }
-.header{
-color: white;
-background-color: rgb(32, 101, 136);
-search-bar-background-color: rgb(31, 82, 111);
+.sign-up-or-log-in {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
 }
-.build-amazing{
- width:33%;
-margin: 0;
+.logo-img {
+    float: left;
+    width: 125px;
+    height: 50px;
 }
-.btn-orange{
-background-color: #f09233;
-text-align: center;
-outline: none;
-width:30%;
+.npm-text {
+    float: left;
+    padding-top: 16px;
+    padding-right: 8px;
 }
-.btn-item{
+.bear-img {
+    width: 45px;
+}
+.npm-bear {
+    float: right;
+}
+.npm-bear a {
+    color: rgba(255, 255, 255, 0.8);
+}
+.npm-bear span {
+    color: rgba(255, 255, 255, 0.8);
+}
+.build-amazing {
+    background-image: url("images/city-scape.svg");
+    background-size: 100% 100%;
+    padding-top: 0;
+    padding-bottom: 20%;
+    clear: both;
+}
+.build-amazing-container {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 32px;
+}
+.build-title {
+    color: white;
+    text-align: left;
+}
+.build-amazing p {
+    color: white;
+    text-align: left;
+}
+.btn-orange {
+    background-color: #f09233;
+    text-align: center;
+    outline: none;
+    width: 30%;
+}
+.btn-item {
+    color: #fff;
+    background-color: #f09233;
+    display: inline-block;
+    font-weight: 400;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 8px 20px;
+    font-size: 16px;
+    line-height: 1.35;
+    border-radius: 20px;
+}
+.btn-red {
+    background: red;
+    color: white;
+}
+.btn-black {
+    background: #34495e;
+}
+#sign-up-for-orgs {
+    color: white;
+    background-color: rgb(39, 53, 71);
+}
+.org-image {
+    width: 50%;
+}
+.org-text {
+    width: 50%;
+}
+.learn-item {
     color: white;
     text-decoration: none;
 }
-#sign-up-for-orgs{
-color: white;
-background-color: rgb(39, 53, 71);
+#install-npm {
+    color: white;
+    background-image: url("images/forklift.svg");
+    background-size: cover;
+    background-size: 100% 100%;
+    padding-top: 0;
+    padding-bottom: 20%;
 }
-.learn-item{
-  color: white;
-  text-decoration: none;
+.install-npm-container {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 32px;
 }
-.btn-red{
-background-color: rgb(203, 56, 55);
-text-align: center;
-outline: none;
-width:30%;
+.install-npm-container p {
+    color: white;
+    text-align: left;
 }
-#install-npm{
-  color: white;
-  background-image: url("images/forklift.svg");
-  background-size: cover;
+.install-title {
+    color: white;
 }
-.btn-black{
-  background-color: rgb(49, 68, 88);
-  text-align: center;
-  outline: none;
-  width:30%;
+#building-blocks {
+    background-color: white;
 }
-#building-blocks{
-  background-color: white;
-  }
-.h2{
-  color: rgb(83, 88, 98);
-  text-align: center;
+.building-title {
+    font-size: 36px;
+    font-weight: 300;
 }
-.p{
-  color:rgb(135, 145, 156);
-  text-align: center;
+.h-building {
+    list-style-type: none;
+    text-align: center;
+    width: 33%;
+    float: left;
 }
-.a{
-  color: rgb(208, 74, 73);
-  text-decoration: none;
-}
-.h-building{
-  list-style-type: none;
-   text-align: center;
-   width: 33%;
-   float: right;
+.h-building-text {
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
 }
